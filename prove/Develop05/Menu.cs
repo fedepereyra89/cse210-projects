@@ -22,7 +22,7 @@ namespace Develop05
             this._type = type;
         }
 
-        public string GetType()
+        public string getType()
         {
             return this._type;
         }

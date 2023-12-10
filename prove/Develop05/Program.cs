@@ -17,18 +17,18 @@ namespace Develop05
                 {
                     
                     menu.SelectType();
-                    if (menu.GetType() == "1")
+                    if (menu.getType() == "1")
                     {
                         
                         Simple simple = new Simple();
                         List<string> simpleGoal = simple.CreateGoal();
                         goalList.AddGoal(simpleGoal);
-                    } else if (menu.GetType() == "2")
+                    } else if (menu.getType() == "2")
                     {
                         Eternal eternal = new Eternal();
                         List<string> eternalGoal = eternal.CreateGoal();
                         goalList.AddGoal(eternalGoal);
-                    } else if (menu.GetType() == "3")
+                    } else if (menu.getType() == "3")
                     {
                         
                         Checklist checklist = new Checklist();
